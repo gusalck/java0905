@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java0905.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/MainDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/chp07prac/MainSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/chp07prac/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex10/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex10/MainBicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex11/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp07/ex11/MainCylinder.java" afterDir="false" />
+    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="java 7장 연습문제 10,11">
       <change afterPath="$PROJECT_DIR$/src/chp07/ex12/Cube.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/chp07/ex12/MainCube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_1/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_1/MainHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_2/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_2/MainDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_4/Avenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_4/MainAvenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gusalck&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gusalck/java0905&quot;,
+    &quot;accountId&quot;: &quot;94d8392c-1532-4869-bbe5-0c02c2bc7b42&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ld0pOIiAJpuxggIEqgyJ6EQEMg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,10 +53,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainAvenger.executor": "Run",
     "Application.MainBicycle.executor": "Run",
     "Application.MainCube.executor": "Run",
     "Application.MainCylinder.executor": "Run",
     "Application.MainDog.executor": "Run",
+    "Application.MainDrink.executor": "Run",
+    "Application.MainHero.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.Square.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,11 +91,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725494830085</updated>
-      <workItem from="1725494831191" duration="9219000" />
+      <workItem from="1725494831191" duration="9449000" />
+      <workItem from="1725511826227" duration="5000" />
+      <workItem from="1726099306039" duration="9353000" />
     </task>
+    <task id="LOCAL-00001" summary="java 7장 연습문제 10,11">
+      <option name="closed" value="true" />
+      <created>1725504723581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725504723581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java 7장 연습문제 10,11" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 7장 연습문제 10,11" />
   </component>
 </project>
