@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="java 8장 실습 5~8">
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex7/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex7/MainAccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8/MonsterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_9/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_9/MainCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp09/RandomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp09/ex09_4/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Novice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/RPGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chp09/RandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp09/ex9_3/RandomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListTest.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAccountTest.executor": "Run",
     "Application.MainAvenger.executor": "Run",
@@ -66,6 +66,7 @@
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
     "Application.MonsterTest.executor": "Run",
+    "Application.RPGTest.executor": "Run",
     "Application.RandomTest.executor": "Run",
     "Application.Square.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -103,7 +104,9 @@
       <workItem from="1726116246623" duration="5000" />
       <workItem from="1726704448818" duration="7385000" />
       <workItem from="1726721877458" duration="36000" />
-      <workItem from="1727309327917" duration="8702000" />
+      <workItem from="1727309327917" duration="8780000" />
+      <workItem from="1727325850617" duration="4000" />
+      <workItem from="1728518709186" duration="6174000" />
     </task>
     <task id="LOCAL-00001" summary="java 7장 연습문제 10,11">
       <option name="closed" value="true" />
@@ -129,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726714023765</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java 8장 실습 5~8">
+      <option name="closed" value="true" />
+      <created>1727318536110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727318536110</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
