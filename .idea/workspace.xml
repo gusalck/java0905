@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="java 8장 실습 5~8">
-      <change afterPath="$PROJECT_DIR$/src/chp09/ex09_4/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Novice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/RPGTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_1/Wizard.java" afterDir="false" />
+    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="java 9장,10장 실습 1~2">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/JDBCConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp09/RandomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp09/ex9_3/RandomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java0905.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java0905.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainJDBCTest.executor": "Run",
     "Application.MainMyMath.executor": "Run",
     "Application.MainSquare.executor": "Run",
     "Application.MainStudent.executor": "Run",
@@ -73,12 +72,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/jdbc/ojdbc11.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/javaProject/java0905/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,7 +109,9 @@
       <workItem from="1726721877458" duration="36000" />
       <workItem from="1727309327917" duration="8780000" />
       <workItem from="1727325850617" duration="4000" />
-      <workItem from="1728518709186" duration="6174000" />
+      <workItem from="1728518709186" duration="6375000" />
+      <workItem from="1728536040430" duration="15000" />
+      <workItem from="1729042179406" duration="3698000" />
     </task>
     <task id="LOCAL-00001" summary="java 7장 연습문제 10,11">
       <option name="closed" value="true" />
@@ -140,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727318536110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java 9장,10장 실습 1~2">
+      <option name="closed" value="true" />
+      <created>1728528460389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728528460389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +163,7 @@
     <MESSAGE value="java 7장 연습문제 10,11" />
     <MESSAGE value="java 8장 실습 1~4" />
     <MESSAGE value="java 8장 실습 5~8" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 8장 실습 5~8" />
+    <MESSAGE value="java 9장,10장 실습 1~2" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 9장,10장 실습 1~2" />
   </component>
 </project>
