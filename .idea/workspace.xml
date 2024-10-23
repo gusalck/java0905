@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="업캐스팅 : 실습 10-4(배열)">
-      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
+    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="업캐스팅 : 범위제한 실습">
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +84,30 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc2.controller.Main" />
+      <module name="java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc2.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,7 +135,8 @@
       <workItem from="1728518709186" duration="6375000" />
       <workItem from="1728536040430" duration="15000" />
       <workItem from="1729042179406" duration="4017000" />
-      <workItem from="1729124618788" duration="1252000" />
+      <workItem from="1729124618788" duration="1854000" />
+      <workItem from="1729642144069" duration="9256000" />
     </task>
     <task id="LOCAL-00001" summary="java 7장 연습문제 10,11">
       <option name="closed" value="true" />
@@ -167,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729125710928</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="업캐스팅 : 실습 10-4(ArrayList)">
+      <option name="closed" value="true" />
+      <created>1729125940279</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125940279</updated>
+    </task>
+    <task id="LOCAL-00009" summary="업캐스팅 : 범위제한 실습">
+      <option name="closed" value="true" />
+      <created>1729126475960</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126475960</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +223,8 @@
     <MESSAGE value="java 9장,10장 실습 1~2" />
     <MESSAGE value="자바 DB연동" />
     <MESSAGE value="업캐스팅 : 실습 10-4(배열)" />
-    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅 : 실습 10-4(배열)" />
+    <MESSAGE value="업캐스팅 : 실습 10-4(ArrayList)" />
+    <MESSAGE value="업캐스팅 : 범위제한 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅 : 범위제한 실습" />
   </component>
 </project>
