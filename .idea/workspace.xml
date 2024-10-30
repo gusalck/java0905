@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="업캐스팅 : 범위제한 실습">
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" afterDir="false" />
+    <list default="true" id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/ProductView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +50,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayListTest.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAccountTest.executor": "Run",
     "Application.MainAvenger.executor": "Run",
     "Application.MainBicycle.executor": "Run",
     "Application.MainCoffee.executor": "Run",
+    "Application.MainController.executor": "Run",
     "Application.MainCube.executor": "Run",
     "Application.MainCylinder.executor": "Run",
     "Application.MainDog.executor": "Run",
@@ -70,6 +71,7 @@
     "Application.RPGTest.executor": "Run",
     "Application.RandomTest.executor": "Run",
     "Application.Square.executor": "Run",
+    "Application.test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -82,9 +84,9 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/javaProject/java0905/src/Main.java",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -102,6 +104,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="-Dconsole.encoding" value="UTF-8" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <module name="java0905" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -111,12 +123,15 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\AI510-12\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3ad5b876-8113-4eb7-a3f5-2dc578d5e7fd" name="Changes" comment="" />
@@ -136,7 +151,17 @@
       <workItem from="1728536040430" duration="15000" />
       <workItem from="1729042179406" duration="4017000" />
       <workItem from="1729124618788" duration="1854000" />
-      <workItem from="1729642144069" duration="9256000" />
+      <workItem from="1729642144069" duration="9479000" />
+      <workItem from="1729750260674" duration="407000" />
+      <workItem from="1729750995441" duration="41000" />
+      <workItem from="1729751972092" duration="182000" />
+      <workItem from="1729819371100" duration="5000" />
+      <workItem from="1730180062405" duration="61000" />
+      <workItem from="1730246698113" duration="4603000" />
+      <workItem from="1730251754407" duration="2000" />
+      <workItem from="1730251761967" duration="407000" />
+      <workItem from="1730252183717" duration="1087000" />
+      <workItem from="1730253343904" duration="2145000" />
     </task>
     <task id="LOCAL-00001" summary="java 7장 연습문제 10,11">
       <option name="closed" value="true" />
@@ -210,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729126475960</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
+      <option name="closed" value="true" />
+      <created>1729651860146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729651860146</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +258,11 @@
     <MESSAGE value="업캐스팅 : 실습 10-4(배열)" />
     <MESSAGE value="업캐스팅 : 실습 10-4(ArrayList)" />
     <MESSAGE value="업캐스팅 : 범위제한 실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="업캐스팅 : 범위제한 실습" />
+    <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
