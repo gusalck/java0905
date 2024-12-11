@@ -10,7 +10,7 @@ public class MainFrame extends JFrame {
     public static final int FRAME_X = 150;
     public static final int FRAME_Y = 280;
 
-    public static final int FRAME_WIDTH = 600;
+    public static final int FRAME_WIDTH = 700;
     public static final int FRAME_HEIGHT = 500;
 
     public int frameX = 100;
@@ -30,6 +30,8 @@ public class MainFrame extends JFrame {
         OrderInfoView orderInfoView = new OrderInfoView();
         add(orderInfoView,"Center");
 
+        setDefaultCloseOperation(EXIT_ON_CLOSE);//창 닫기 클릭시 프로그램 종료
+
         setLocation(frameX, frameY);
 //        setLocation((dimension.width-FRAME_WIDTH)/2,(dimension.height - FRAME_HEIGHT)/2);
         setSize(FRAME_WIDTH,FRAME_HEIGHT);
@@ -39,6 +41,5 @@ public class MainFrame extends JFrame {
 
     public static void main(String[] args) {
         new MainFrame();
-
     }
 }
