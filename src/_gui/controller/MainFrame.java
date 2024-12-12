@@ -10,7 +10,7 @@ public class MainFrame extends JFrame {
     public static final int FRAME_X = 150;
     public static final int FRAME_Y = 280;
 
-    public static final int FRAME_WIDTH = 700;
+    public static final int FRAME_WIDTH = 1000;
     public static final int FRAME_HEIGHT = 500;
 
     public int frameX = 100;
